@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Setup PHP 🏗
-        uses: shivammathur/setup-php@2.24.0
+        uses: shivammathur/setup-php@2.25.2
         with:
           php-version: ${{ matrix.php }}
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, gd
